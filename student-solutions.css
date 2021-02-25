@@ -42,3 +42,27 @@
 .ex-5-square:hover {
     transform: scale(2)
 }
+
+/* ex6 ----------------------------------------------------*/
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* ex7 ----------------------------------------------------*/
+
+.ex-7-img:hover {
+    transition: 1s;
+    filter: sepia(1);
+}
+
+/* ex8 ----------------------------------------------------*/
+
+.ex-8-img {
+    transition: filter, border-radius 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(.7);
+    border-radius: 7%;
+}
