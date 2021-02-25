@@ -133,19 +133,26 @@
 }
 
 /* ex12 ----------------------------------------------------*/
-.ex-12-button:hover {
-    animation-name: top;
-    animation-duration: 3s;
+.ex-12-button:hover .ex-12-top-white {
+    animation: topwhite 3s linear;
 }
 
-.ex-12-top-white:hover {
-    animation-name: top;
-    animation-duration: 3s;
+@keyframes topwhite {
+    /* 0% {
+        right: 10px;
+    } */
 
-}
-
-@keyframes top {
-    0% {
-        right: 50px;
+    50% {
+        right: 20px;
     }
+
+    /* 100% {
+        right: 0;
+    } */
 }
+
+.ex-12-button:hover .ex-12-bottom-white {
+    
+}
+
+
