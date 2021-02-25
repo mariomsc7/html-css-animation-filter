@@ -85,23 +85,11 @@
 /* ex10 ----------------------------------------------------*/
 
 .ex-10-icon {
-    animation-name: rotation;
-    animation-duration: 1s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-    
+    animation: spin 1s linear infinite;
 }
-
-@keyframes rotation {
-
+@keyframes spin {
     0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
+        transform: rotate(1turn);
     }
 }
 
