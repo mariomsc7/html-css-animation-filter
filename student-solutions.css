@@ -131,3 +131,21 @@
         transform: rotate(0deg);
     }
 }
+
+/* ex12 ----------------------------------------------------*/
+.ex-12-button:hover {
+    animation-name: top;
+    animation-duration: 3s;
+}
+
+.ex-12-top-white:hover {
+    animation-name: top;
+    animation-duration: 3s;
+
+}
+
+@keyframes top {
+    0% {
+        right: 50px;
+    }
+}
